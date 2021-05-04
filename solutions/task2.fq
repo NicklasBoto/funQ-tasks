@@ -1,0 +1,25 @@
+---- task 2
+-- create a full adder using the provided functions
+
+not : !(!Bit -o !Bit)
+not x = if x then 0 else 1
+
+and : !(!Bit -o !Bit -o !Bit)
+and x y = if x then y else 0
+
+or : !(!Bit -o !Bit -o !Bit)
+or x y = if x then 1 else y
+
+xor : !(!Bit -o !Bit -o !Bit)
+xor x y = x -- TODO
+
+-- half adder
+half : !(!Bit -o !Bit -o !(Bit >< Bit))
+half x y = (x,y) -- TODO
+
+-- full adder
+full : !(!Bit -o !Bit -o !Bit -o !(Bit >< Bit))
+full x y cin = (x,y) -- TODO
+
+main : Bit >< Bit
+main = full 1 1 1

@@ -1,0 +1,8 @@
+---- task 1
+-- fix this ill-typed code
+
+dup : Bit -o Bit >< Bit
+dup x = (x,x)
+
+main : Bit >< Bit
+main = dup 0
