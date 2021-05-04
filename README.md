@@ -127,8 +127,6 @@ Z : !(QBit -o QBit)
 
 The Pauli-Z gate negates the second element in the state vector, mapping `|0>` to `|0>`, and `|1>` to `-|1>`.
 
-The Pauli-X gate acts like a classical NOT. Flipping the probabilities of a state vector.
-
 #### CNOT
 ![cnot](https://raw.githubusercontent.com/NicklasBoto/funQ/main/docsImages/cnot.PNG)
 ```hs
