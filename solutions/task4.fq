@@ -1,0 +1,5 @@
+---- task 4
+-- quantum entanglement
+
+main : Bit >< Bit
+main = let (a,b) = epr in (measure a, measure b)

@@ -1,5 +1,5 @@
 #!/bin/bash
-
+mkdir tests > /dev/null 2>&1
 for f in ./solutions/task*.fq; do
     funq $f --runs=1024 > tests/$(basename $f .fq).txt
 done

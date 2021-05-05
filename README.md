@@ -4,7 +4,7 @@ Make sure that `funQ` is installed on your system. For example:
 
 ```
 $ funq --version
-0.1.0.0
+0.9.1
 ```
 
 The tasks are described in seperate markdown documents. Go through the tasks one by one and write down your solution as a `funQ` program in the solutions folder. After you are done, run the `test` script and submit this repository as a compressed folder. Below is a basic description of the language, its type system, and some basic quantum computing. Documentation on the CLI-tool can be displayed by executing 
@@ -142,3 +142,5 @@ Quantum circuits are a series of lines representing qubits, and gates acting on 
 ![epr](https://upload.wikimedia.org/wikipedia/commons/b/bb/H_CNOTGate.png)
 
 This circuit for example creates two qubits in the zero state, performs hadamard on the first one then performs a controlled not with the first qubit as control and the second as target.
+
+A classical bit looks like a double struck line, and measurements are represented by a gate with a gauge on it.

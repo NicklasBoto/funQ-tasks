@@ -1,2 +1,5 @@
 ---- task 3
--- something
+-- quantum coin flip
+
+main : Bit
+main = 0 -- TODO

@@ -1,0 +1,8 @@
+---- task 6
+-- quantum teleportation
+
+teleport : !(QBit -o QBit)
+teleport psi = new 0 -- TODO
+
+main : Bit
+main = measure (teleport (H (new 0)))

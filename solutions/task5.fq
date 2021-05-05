@@ -1,0 +1,5 @@
+---- task 5
+-- quantum bit control
+
+main : Bit
+main = measure (qbc (new 1) (new 0))
