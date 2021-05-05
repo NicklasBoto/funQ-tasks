@@ -2,13 +2,13 @@
 -- create a full adder using the provided functions
 
 not : !(!Bit -o !Bit)
-not x = if x then 0 else 1
+not x = x -- TODO
 
 and : !(!Bit -o !Bit -o !Bit)
-and x y = if x then y else 0
+and x y = x -- TODO
 
 or : !(!Bit -o !Bit -o !Bit)
-or x y = if x then 1 else y
+or x y = -- TODO
 
 xor : !(!Bit -o !Bit -o !Bit)
 xor x y = x -- TODO
